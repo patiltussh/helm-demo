@@ -3,13 +3,13 @@ name: maven-demo
 labels: 
   source: maven
   stack: frontend
-  app: tomcat
+  app: tomcat-1
   
 replicacount: 1
 
 matchLabels:
   source: maven
-  app: tomcat
+  app: tomcat-1
 
 image:
   repository: index.docker.io/tusharstudy2020/webappimages
